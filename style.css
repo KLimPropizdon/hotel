@@ -1,0 +1,549 @@
+html *{
+    font-family:"Kanit", sans-serif; 
+}
+.header {
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    height: 100px;
+    display: flex;
+    /* justify-content: center; */
+    gap: 50px;
+    position: relative;
+    top: 0;
+    align-items: center;
+
+}
+
+.infonomer {
+    display: flex;
+    justify-content: center;
+    width: 7%;
+    height: 100%;
+    background-color: rgba(128, 255, 0, 0);
+    align-items: center;
+
+
+}
+
+.infocontact {
+    display: flex;
+    justify-content: center;
+    width: 10%;
+    height: 100%;
+    align-items: center;
+    
+
+
+
+
+
+}
+
+.place {
+    display: flex;
+    justify-content: center;
+    width: 15%;
+    height: 100%;
+    align-items: center;
+
+
+}
+
+/* .headertext {
+    font-family: "Kanit", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 30px;
+} */
+.headertext1{
+    font-weight: 700;
+    font-family: "Kanit", sans-serif;
+    margin:0;
+    padding:0;
+    font-size:20px;
+    text-transform:uppercase;
+    position:relative;
+    color:#000000;
+  }
+  .headertext1:before{
+    content:"номера";
+    position:absolute;
+    color:#be1212;
+    top:0;
+    left:0;
+    width:0%;
+    overflow:hidden;
+    transition:all 0.7s;
+  }
+  .headertext1:hover:before{
+    width:100%;
+  }
+  .headertext2{
+    font-weight: 700;
+    font-family: "Kanit", sans-serif;
+    margin:0;
+    padding:0;
+    font-size:20px;
+    text-transform:uppercase;
+    position:relative;
+    color:#000000;
+  }
+  .headertext2:before{
+    content:"местоположение";
+    position:absolute;
+    color:#be1212;
+    top:0;
+    left:0;
+    width:0%;
+    overflow:hidden;
+    transition:all 0.7s;
+  }
+  .headertext2:hover:before{
+    width:100%;
+  }
+  .headertext3{
+    font-weight: 700;
+    font-family: "Kanit", sans-serif;
+    margin:0;
+    padding:0;
+    font-size:20px;
+    text-transform:uppercase;
+    position:relative;
+    color:#000000;
+  }
+  .headertext3:before{
+    content:"наши контакты";
+    position:absolute;
+    color:#be1212;
+    top:0;
+    left:0;
+    width:0%;
+    overflow:hidden;
+    transition:all 0.7s;
+  }
+  .headertext3:hover:before{
+    width:100%;
+  }
+  .mainheader{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    color: #ffffff;
+  }
+.ohotel{
+    font-size: 40px;
+    margin-left: 2%;
+    font-weight: 600;
+    font-family: "Kanit", sans-serif;
+    
+}
+
+.main {
+    width: 100%;
+    height: 20cm;
+    display: flex;
+    justify-content: left;
+    gap: 5px;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+
+}
+
+.forphoto {
+    width: 30%;
+    height: 100%;
+    background-color: rgb(203, 208, 212);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.mainphoto {
+    width: 100%;
+    height: 100%;
+
+}
+
+.mainheader {
+    width: 100%;
+    height: 60px;
+    background-color: #26242b;;
+}
+
+.bigscreen {
+    display: flex;
+    flex-direction: column;
+    background-color: blue;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(214, 223, 231);
+
+}
+
+.maindouble {
+    width: 28.19%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5%;
+
+}
+
+.mainphoto2 {
+    width: 100%;
+    height: 99%Ё;
+}
+.beforenotice{
+    width: 42.8%;
+    height: 100%;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.fornotice{
+    width: 80%;
+    height: 80%;
+    background-color: #ffffff;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.notice{
+    font-size: 35px;
+}
+.foricons{
+    width: 100%;
+    height: 20%;
+    background-color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    border-bottom: solid;
+    
+}
+.shareicon{
+    display: flex;
+    justify-content: center;
+    gap: 10%;
+    width: 30%;
+}
+.conicon{
+    width: 20%;
+    height: 70%;
+    transition: 0.2s;
+}
+.conicon:hover{
+    width: 25%;
+    height: 80%;
+
+
+}
+.metka{
+    font-size: 20px;
+
+}
+.rating{
+    width: 100%;
+    height: 20%;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    gap: 3%;
+    border-bottom: solid;
+
+}
+.ratingstars{
+    height: 90%;
+    width: 17%;
+    margin-left: 4%;
+}
+.ratingtext{
+    font-size: 20px
+
+}
+.checkin{
+    width: 100%;
+    height: 10%;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    margin-left: 4%;
+}
+.checkout{
+    font-size: 20px;
+}
+.hotprice{
+    width: 100%;
+    height: 10%;
+
+}
+.veryhot{
+    width: 60%;
+    height: 100%;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    border-radius: 10px;
+    border: solid 1px;
+    margin-left: 2%;
+    background-color: #ffffff;
+    gap: 5%;
+}
+.veryhot:hover{
+    background-color: #26242b;
+    color: #ffffff;
+}
+.veryhot:active {
+    transform: translateY(-1px);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+.calendar{
+    width: 1cm;
+    height: 1cm;
+}
+.freedate{
+    font-size: 20px;
+}
+
+.nav-icon {
+    margin: 1em;
+    width: 40px;
+  }
+  
+  .nav-icon:after, 
+  .nav-icon:before, 
+  .nav-icon div {
+    background-color: #000000;
+    border-radius: 3px;
+    content: '';
+    display: block;
+    height: 5px;
+    margin: 7px 0;
+    transition: all .2s ease-in-out;
+  }
+  .nav-icon:hover:before {
+    transform: translateY(12px) rotate(135deg);
+  }
+  
+  .nav-icon:hover:after {
+    transform: translateY(-12px) rotate(-135deg);
+  }
+  
+  .nav-icon:hover div {
+    transform: scale(0);
+  }
+  .hotelinfo{
+    width: 100%;
+    height: 2cm;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    gap: 1%;
+  }
+.hotelinfobtn{
+    width: 12%;
+    height: 60%;
+    border-radius: 30px;
+    font-size: 15px; 
+    font-family: "Kanit", sans-serif;
+    font-weight: 700;
+    border: solid;
+    box-sizing: 15px;
+    background-color: #26242b;
+    color: #ffffff;
+}
+.hotelinfobtn:hover{
+    background-color: #ffffff;
+    color: #000000;
+
+}
+.someinfo{
+  width: 100%;
+  height: 10cm;
+  background-color: #eeeeee;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.concretinfo{
+    width: 90%;
+    height: 70%;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    padding: 20px;
+}
+.wholeinfo{
+    font-size: 20px;
+    font-family:"Kanit", sans-serif; 
+    
+}
+.wholeinfobig{
+    font-size: 30px;
+    font-weight: 700;
+    font-family:"Kanit", sans-serif; 
+}
+.rooms{
+    width: 100%;
+    height: 16cm;
+    background-color: #eeeeee;
+    display: grid;
+    grid-template-columns: 100%;
+    justify-content: center;
+    gap: 10%;
+    grid-template-rows: 10% 80%;
+    
+
+ 
+}
+.nomeratitle{
+    display: flex;
+}
+.rooms1{
+    width: 90%;
+    height: 70%;
+    background-color: #fdffff00;
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 20% 20% 20% 20%;
+    gap: 80px;
+    grid-template-rows: 424px;
+    
+    
+}
+.roomstext{
+    /* text-align: left; */
+    font-size: 45px;
+
+}
+.forroomsinfo{
+    display: flex;
+    justify-content: center;
+}
+.roomsphoto{
+    
+    display: grid; 
+    justify-content: center;
+    grid-template-columns: 100% ;
+    grid-template-rows: 60% 40%;
+    background-color: white;
+    border-radius: 15px;
+    
+
+}
+.roomview{
+    width:100%;
+    height: 100%;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+  
+
+}
+.roomsinfo{
+font-size: 40px;
+text-align: center;
+}
+.uslugi{
+    width: 100%;
+    height: 25cm;
+    background-color: #eeeeee;
+    display: flex;
+    justify-content: center;
+}
+.uslugi1{
+width: 90%;
+height: 70%;
+}
+.uslugitext{
+    font-size: 45px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 500;
+
+}
+.uslugisek{
+    background-color: #ffffff;
+    border-radius: 20px;
+    flex-direction: column;
+    padding: 3%;
+    gap: 10px;
+}
+.container{
+    justify-content: center;
+    display: grid;
+    grid-template-columns: 21% 21% 21% 21%;
+    gap: 10px;
+    grid-template-rows: 350px 350px; 
+}
+.uslugisektext{
+font-size: 20px;
+font-weight: 600;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.uslugiicons{
+    width: 50%;
+    height: 60%;
+}
+.dosugt{
+font-size: 45px;
+}
+.dosug{
+    width: 100%;
+    height: 25cm;
+    background-color: #eeeeee;
+    display: grid;
+    grid-template-columns: 30% 30% ;
+    grid-template-rows: 10% 40% 50%;
+    justify-content: center;
+    gap: 20px 10px;
+    
+}
+.bigdosug{
+    width: 100%;
+    height: 30cm;
+    background-color: #eeeeee;
+}
+.dosug1{
+    grid-column: 1/3;
+    display: flex;
+    align-items: center;
+}
+
+
+
+
+.dosugphoto1{
+    display: flex;
+    grid-column: 1/2;
+    
+
+}
+.dosugphoto2{
+    display: flex;
+}
+.dosugphoto3{
+    display: flex;
+    grid-column: 1/4;
+    grid-row: 3/4;
+    width: 100%;
+}
+.dosugphotogo{
+    width: 100%;
+    height: 90%;
+    border-radius: 30px;
+}
+.formap{
+    width: 100%;
+    height: 18cm;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #26242b;
+}
+.textmap{
+    font-size: 40px;
+    color: #ffffff;
+}
